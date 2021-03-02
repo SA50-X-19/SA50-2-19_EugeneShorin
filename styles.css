@@ -18,3 +18,30 @@
     border: 2px dotted black;
     margin-bottom: 2px;
 }
+
+.news_all{
+
+    left: 51%;
+    top:0px;
+    position: fixed;
+    border: 2px dotted black;
+    margin-left: 4px;
+    
+}
+
+p{
+    padding-left:25px;
+    padding-top:25px;
+    font-size: 20px;
+}
+.news_text{
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border: 1px solid greenyellow;
+    position: sticky;
+    height: 300px;
+    
+    overflow: auto;
+    
+}
