@@ -355,6 +355,7 @@ a{
 }
 
 .footer_social{
+    /* fix */
     display: flex;
     width: 200px;
     justify-content: space-between;
