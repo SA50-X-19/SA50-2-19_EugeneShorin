@@ -40,7 +40,6 @@ body{
 .info_name{
     text-align:center;
     color:#F7F7F7;
-    padding-left: 10px;
     font-size: 20px;
 }
 
@@ -238,6 +237,76 @@ a{
 .articles_button >img:hover{
     transform: scale(1.2,1.2);
     background-color: darkgray;
+}
+
+.articles_notified_sender{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 510px;
+}
+
+.articles_notified_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+.articles_input_email{
+    width: 540px;
+    height: 60px;
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    border: none;
+    border: 1px solid #CD6326;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.articles_input_email:active,:hover,:focus{
+    outline: none;
+    outline-offset: none;
+
+}
+
+.articles_submit_area{
+    display: flex;
+}
+
+.articles_submit_send{
+    width: 120px;
+    height: 60px;
+    border: none;
+    background-color: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #F7F7F7;
+    transition: 0.1s;
+}
+
+.articles_submit_send:active,:hover,:focus{
+    outline: none;
+    outline-offset: none;
+
+}
+
+.articles_submit_send:active{
+    background-color: #94471a;
 }
 
 
