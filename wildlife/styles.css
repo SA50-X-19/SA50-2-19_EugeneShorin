@@ -305,9 +305,14 @@ a{
 
 }
 
+.articles_submit_send:hover{
+    background-color: #b35520;
+}
+
 .articles_submit_send:active{
     background-color: #94471a;
 }
+
 
 
 
